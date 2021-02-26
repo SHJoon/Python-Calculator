@@ -1,9 +1,9 @@
 import sys
 
 # Import QApplication and the required widgets from PyQt5.QtWidgets
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtWidgets import QMainWindow
-from PyQt5.QtWidgets import QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLineEdit, QPushButton, QVBoxLayout
+
+from PyQt5.QtCore import Qt
 
 __version__ = '0.1'
 __author__ = 'Leodanis Pozo Ramos'
@@ -34,4 +34,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
