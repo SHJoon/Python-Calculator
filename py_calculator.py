@@ -5,8 +5,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLi
 
 from PyQt5.QtCore import Qt
 
-__version__ = '0.1'
-__author__ = 'Leodanis Pozo Ramos'
+from functools import partial
 
 # Create a subclass of QMainWindow to setup the calculator's GUI
 class PyCalcUi(QMainWindow):
